@@ -35,7 +35,7 @@ void Cperson::modInfo() {
 	string flag;
 	cout<<"你想修改这个人的家庭地址吗(yes or no)？: ";
 	cin>>flag;
-	if(flag == "true") {
+	if(flag == "yes") {
 		string addr;
 		cout<<"请输入新的家庭地址：";
 		cin>>addr;
@@ -44,7 +44,7 @@ void Cperson::modInfo() {
 
 	cout<<"你想修改这个人的电话号码吗(yes or no)？: ";
 	cin>>flag;
-	if(flag == "true") {
+	if(flag == "yes") {
 		long long number;
 		cout<<"请输入新的电话号码：";
 		cin>>number;
@@ -53,7 +53,7 @@ void Cperson::modInfo() {
 
 	cout<<"你想修改这个人的邮政编码吗(yes or no)？: ";
 	cin>>flag;
-	if(flag == "true") {
+	if(flag == "yes") {
 		long int code;
 		cout<<"请输入新的邮政编码：";
 		cin>>code;

@@ -36,7 +36,7 @@ class Cperson {
 		//修改对象个人信息，可修改除姓名外的信息
 		void modInfo();
 
-		//重载流运算符
+		//重载流运算符，输入输出个人信息 
 		friend istream& operator>>(istream &input,Cperson &person);
 
 		friend ostream& operator<<(ostream &output,Cperson &person);
