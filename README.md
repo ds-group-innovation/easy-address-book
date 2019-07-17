@@ -4,7 +4,7 @@
 
 ## UML类图
 
-![]()
+![https://raw.githubusercontent.com/ds-group-innovation/easy-address-book/master/addressBookUML.png](https://raw.githubusercontent.com/ds-group-innovation/easy-address-book/master/addressBookUML.png)
 
 ## 文件组织结构
 ```
